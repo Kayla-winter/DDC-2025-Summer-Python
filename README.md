@@ -57,9 +57,13 @@ Welcome to your Summer Coding Adventure! 🎉 This is a collection of fun, begin
 ## 💬 Reflection Questions (Optional)
 Include these at the end of each file or project:
 - What did you build today?
+- Today we built a juice bar for the iland we are on.
 - What was challenging?
+- It was challenging trying to figure out if the combonations would work.
 - What was fun?
+- Yes it was very fun.
 - What would you add next?
+- a pool or something i dont know.
 
 ---
 
