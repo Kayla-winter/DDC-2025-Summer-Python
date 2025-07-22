@@ -1,0 +1,64 @@
+"""
+💎 Welcome to Code Island's Treasure Hunt Adventure!
+
+Today you're building a *choose your own adventure* game.
+Your mission: write a story with code where the player chooses their path.
+
+🔍 What you’ll practice:
+- Using `print()` and `input()` for storytelling
+- Writing `if/elif/else` branches
+- Keeping track of player choices and outcomes
+
+🎮 Game Idea:
+You're lost in the jungle with a map to a hidden treasure.
+Every choice you make can lead you closer to the treasure... or total disaster 😵
+
+🎨 Remix Challenges (do at least 2–3):
+✅ Add more paths (like a hidden cave or river)
+✅ Let the player collect items (like a torch or rope)
+✅ Add a timer or limited number of moves
+✅ Add random events with `random.choice()`
+✅ Use emoji and ASCII art for flavor
+✅ Add a restart option or loop
+
+📸 When You Finish:
+- Play each other's games in pairs
+- Share one awesome/funny outcome with the class
+- Submit your `.py` file or Replit link
+"""
+
+# 📜 Start of the game
+print("🏝️ Welcome to the Lost Treasure Adventure!")
+print("You're waking up on the shore of Code Island with nothing but a backpack and a torn map.\n")
+
+# 🧭 First choice
+print("You see two paths in the jungle ahead:")
+print("A - A dark path covered in vines")
+print("B - A sunny trail with animal footprints")
+path = input("Which path do you choose? (A/B): ").upper()
+
+if path == "A":
+    print("\n🌿 You push through the vines and find a deep cave entrance.")
+    print("Inside, it's pitch black. You hear a growl. 😨")
+    cave_choice = input("Do you want to ENTER the cave or RUN away? ").lower()
+    if cave_choice == "enter":
+        print("You use your phone flashlight and find... a golden chest! 💰")
+        print("YOU WIN!")
+    else:
+        print("You run straight into a tree and knock yourself out. Game over 😵")
+
+elif path == "B":
+    print("\n☀️ You walk the sunny trail and see a monkey holding a shiny object.")
+    monkey_choice = input("Do you CHASE the monkey or IGNORE it? ").lower()
+    if monkey_choice == "chase":
+        print("The monkey throws the object at you — it's a key! 🗝️")
+        print("You find a trapdoor nearby and open it with the key... TREASURE! 🎉")
+    else:
+        print("You walk past and fall into a muddy pit. Stuck forever. Game over 💀")
+
+else:
+    print("You sit on the beach doing nothing. Eventually a crab steals your backpack. 🦀 Game over.")
+
+# ✅ Your Turn!
+# Try adding more paths, new characters, hidden items, or funny endings below.
+# You can use if/elif/else again to make the story more complex.
