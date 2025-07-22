@@ -32,10 +32,12 @@ print("🏝️ Welcome to the Lost Treasure Adventure!")
 print("You're waking up on the shore of Code Island with nothing but a backpack and a torn map.\n")
 
 # 🧭 First choice
-print("You see two paths in the jungle ahead:")
+print("You see four paths in the jungle ahead:")
 print("A - A dark path covered in vines")
 print("B - A sunny trail with animal footprints")
-path = input("Which path do you choose? (A/B): ").upper()
+print("C - A river with a creaky bridge")
+print("D - A town full of people")
+path = input("Which path do you choose? (A/B/C/D): ").upper()
 
 if path == "A":
     print("\n🌿 You push through the vines and find a deep cave entrance.")
@@ -59,6 +61,9 @@ elif path == "B":
 else:
     print("You sit on the beach doing nothing. Eventually a crab steals your backpack. 🦀 Game over.")
 
+elif path == "C":
+    print("\n🌊 You walk toward the bridge before you can step up on the bridge a troll pop up the troll asks for money to enter the bridge)
+    troll_choice = 
 # ✅ Your Turn!
 # Try adding more paths, new characters, hidden items, or funny endings below.
 # You can use if/elif/else again to make the story more complex.
